@@ -8,11 +8,11 @@ public class Calculate{
         float dif = first - second;
         float mult = first * second;
         float div = first / second;
-        double pov = Math.pow(first, second);
+        double pow = Math.pow(first, second);
         System.out.println("Sum  " + first + " + " + second + " + " + third + " = " + summ);
         System.out.println("Dif  " + first + " - " + second + " = " + dif);
         System.out.println("Mult " + first + " * " + second + " = " + mult);
         System.out.println("Div  " + first + " / " + second + " = " + div);
-        System.out.println("Pow  " + first + " ^ " + second + " = " + pov);
+        System.out.println("Pow  " + first + " ^ " + second + " = " + pow);
     }
 }
