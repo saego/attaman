@@ -1,4 +1,4 @@
-public class InteractRunner{
+	public class ArgRunner{
 
 	public static void main(String[] arg){
 		float first = Float.valueOf(arg[0]);
