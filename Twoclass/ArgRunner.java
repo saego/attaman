@@ -3,11 +3,11 @@
 	public static void main(String[] arg){
 		//float first = Float.valueOf(arg[0]);
 		//float second = Float.valueOf(arg[1]);
-		Scanner in = new Scanner (System.in);
+		Scanner inData = new Scanner (System.in);
 		System.out.print("Fill first data\n");
-		float first = in.nextFloat();
+		float first = inData.nextFloat();
 		System.out.print("Fill second data\n");
-		float second = in.nextFloat();
+		float second = inData.nextFloat();
 		Calculator sum = new Calculator();
 		
 		double result = sum.summ(first, second);		
