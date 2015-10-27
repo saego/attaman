@@ -15,6 +15,7 @@
 			String operator = inData.next();
 			System.out.print("Fill second data\n");
 			double second = inData.nextDouble();
+
 		
         new Calculator(first, operator, second);
         System.out.print("Do you want to escape: yes/no \n");
@@ -25,3 +26,13 @@
 	}
 	}
 	
+
+		
+       // new Calculator(first, operator, second);
+       // System.out.print("Exit yes/no: \n");
+			//String exit = inData.next();
+        
+		
+	
+	
+

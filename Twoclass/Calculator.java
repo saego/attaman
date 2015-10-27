@@ -1,8 +1,6 @@
 public class Calculator{
-	//String exit = "no";
-	//while (!exit.equals("yes")){
-	private double result;
-    //while (!exit.equals("yes")){
+	
+	private double result;    
     public void add(double first, double second) {
         this.result = first + second;
     }
@@ -16,13 +14,8 @@ public class Calculator{
     }
 
     public void div(double first, double second) {
-    	if (second !=0){
-    	this.result = first / second;
-    	}
-    	else{
-    	System.out.println("Error!!!Devide by 0\n");
-    	//this.result = "Error";
-    	}
+    this.result = first / second;
+
     }
     public void exp(double first, double second) {
     this.result = Math.pow(first, second);    
@@ -61,6 +54,12 @@ public class Calculator{
         else {
         	System.out.println("Wrong operation");
     }
+
     }
     }
     
+
+        
+    
+
+
