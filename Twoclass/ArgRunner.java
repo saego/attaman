@@ -1,7 +1,7 @@
 	import java.util.Scanner;
 	public class ArgRunner{
 	public static void main(String[] args){
-		try {System.setOut(new java.io.PrintStream(System.out, true, "Cp866")); // Нужно чтобы кириллица корректно выводилась в консоль
+		try {System.setOut(new java.io.PrintStream(System.out, true, "Cp866")); // ГЌГіГ¦Г­Г® Г·ГІГ®ГЎГ» ГЄГЁГ°ГЁГ«Г«ГЁГ¶Г  ГЄГ®Г°Г°ГҐГЄГІГ­Г® ГўГ»ГўГ®Г¤ГЁГ«Г Г±Гј Гў ГЄГ®Г­Г±Г®Г«Гј
 		} catch (Exception ex) {}
 		//float first = Float.valueOf(arg[0]);
 		//float second = Float.valueOf(arg[2]);
@@ -27,10 +27,7 @@
 	}
 	
 
-		
-       // new Calculator(first, operator, second);
-       // System.out.print("Exit yes/no: \n");
-			//String exit = inData.next();
+
         
 		
 	
