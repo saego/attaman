@@ -1,30 +1,38 @@
 public class Calculator{
-
+	
 	private double result;    
-    public void add(double first, double second) {
+    public void add(int first, int second) {
         this.result = first + second;
     }
 
-    public void sub(double first, double second) {
+    public void sub(int first, int second) {
         this.result = first - second;
     }
 
-    public void mul(double first, double second) {
+    public void mul(int first, int second) {
         this.result = first * second;
     }
 
-    public void div(double first, double second) {
-    this.result = first / second;
+    public void div(int first, int second) {
+    	//if (second != 0){
+    	try {	
+    	this.result = first / second;
+    	}
+    	catch(ArithmeticException e){
+    	System.out.println("Division by ZERO!");
+    	}	
+    	//else{throw new RuntimeException("Division by zero");	
+    	//}		
     }
-    public void exp(double first, double second) {
+    public void exp(int first, int second) {
     this.result = Math.pow(first, second);    
     }
-    public double getResult(double first, double second){
+    public double getResult(int first, int second){
     result = this.result;
     return result;
     }
 	
-    public Calculator(double first, String operator, double second) {
+    public Calculator(int first, String operator, int second) {
         if (operator.equals("+")) {
         	add(first, second);
             System.out.println(first + " + " + second + " = " + getResult(first,second));
@@ -53,6 +61,12 @@ public class Calculator{
         else {
         	System.out.println("Wrong operation");
     }
-        }
+
+    }
+    }
     
-}
+
+        
+    
+
+
