@@ -1,5 +1,5 @@
 public class Calculator{
-<<<<<<< HEAD
+
 	//свойства класса
 	public float first;
 	public float second;
@@ -13,7 +13,6 @@ public class Calculator{
 	summ = first + second;
 	}
 }
-=======
+
 	public
 }
->>>>>>> c271c2946c3dd0d00172c326fbfc536f90d7b362
